@@ -19,6 +19,9 @@ body{
     font-style: normal;
 }
 /* navbar area start */
+.memubar{
+    display: none;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -197,6 +200,7 @@ body{
 /* feature section end */
 
 /* footer section start */
+
 .footer-area{
     display: flex;
     justify-content: center;
