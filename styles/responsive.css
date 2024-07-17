@@ -20,6 +20,21 @@
     .none{
         display: none;
     }
+    .camera-main img{
+        width: 100%;
+    }
+    .camera-bg{
+        position: absolute;
+        top: -28px;
+        z-index: -1;
+    }
+    .camera-main{
+        width: 90%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .title{
         color: rgb(58, 58, 58);
         font-family: Poppins;
@@ -44,10 +59,11 @@
     }
 
     .shop-section{
+        width: 95%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
-        padding: 40px 25px;
+        padding: 40px 5px;
 
     }
     .card-item{
