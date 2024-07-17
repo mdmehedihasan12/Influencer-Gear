@@ -59,7 +59,7 @@
     }
 
     .shop-section{
-        width: 95%;
+        width: 90%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
@@ -67,6 +67,7 @@
 
     }
     .card-item{
+        width: 90%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 25px;
@@ -77,6 +78,7 @@
         gap: 5px;
     }
     .featured-products{
+        width: 90%;
         flex-direction: column;
         text-align: center;
     }
