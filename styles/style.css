@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* share style */
 main,
 .header{
     max-width: 1200px;
@@ -99,3 +100,130 @@ body{
     padding: 40px 5px;
 }
 /* shop area end */
+.card-area{
+    margin: 60px auto;
+
+}
+.card-area h2{
+    text-align: center;
+    margin: 40px auto;
+
+}
+.see-more{
+    text-align: right;
+    color: rgb(251, 130, 0);
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 7px;
+}
+.card-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+}
+.card{
+    width: 364px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+}
+.card h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+.card p{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+.card i{
+    color: rgb(251, 130, 0);
+}
+/* card area end  */
+
+/* feature area start */
+.feature-area{
+    margin: 50px auto;
+}
+
+.featured-products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.feature-info h2{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-info p{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn2{
+    width: 155px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+/* feature section end */
+
+/* footer section start */
+.footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 191px;
+    background:#0a0826 ;
+}
+.footer-info{
+    text-align: center;
+}
+.footer-info h2{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-info p {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px ;
+}
+.incons{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 5px;
+}
+/* footer section end */
